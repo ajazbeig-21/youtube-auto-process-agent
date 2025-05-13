@@ -1,0 +1,121 @@
+<!-- landing-page.component.html -->
+<div class="min-h-screen  text-white">
+
+    <!-- Header Section -->
+    <header class="text-center py-12 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+        <div class="max-w-4xl mx-auto px-4 py-30">
+            <h1 class="text-5xl font-bold mb-6">Remove Background Noise from Your Videos and Audios Effortlessly</h1>
+            <p class="text-xl mb-8">
+                Clean up your content by removing unwanted background noise from audio and video files with just a few
+                clicks. Fast, simple, and effective.
+            </p>
+
+            <!-- CTA Button -->
+            <a href="#upload"
+            id="uploadButton"
+                class="bg-white text-indigo-600 py-3 px-6 rounded-full text-xl font-semibold shadow-md hover:bg-indigo-100 transition-all">
+                Upload Your File
+            </a>
+        </div>
+    </header>
+  
+    <!-- How It Works Section -->
+    <section class="mt-12 bg-white py-16 px-6 text-center rounded-lg shadow-xl">
+        <h2 class="text-3xl font-semibold mb-8 text-gray-700">How It Works</h2>
+        <div class="flex justify-around items-center flex-wrap">
+            <!-- Step 1 -->
+            <div class="max-w-xs mb-8 flex flex-col items-center justify-center">
+                <img src="/images/landing-page/file-upload.png" alt="" class="w-1/2">
+                <h3 class="text-2xl font-semibold mb-2 text-gray-700">1. Upload Your File</h3>
+                <p class="text-lg text-gray-600">Choose a video or audio file from your device to upload.</p>
+            </div>
+            <!-- Step 2 -->
+            <div class="max-w-xs mb-8 flex flex-col items-center justify-center">
+                <img src="/images/landing-page/processing.png" alt="" class="w-1/2">
+
+                <h3 class="text-2xl font-semibold mb-2 text-gray-700">2. We Process It</h3>
+                <p class="text-lg text-gray-600">Our tool automatically removes background noise from your media.</p>
+            </div>
+            <!-- Step 3 -->
+            <div class="max-w-xs mb-8 flex flex-col items-center justify-center">
+                <img src="/images/landing-page/download.png" alt="" class="w-1/2">
+
+                <h3 class="text-2xl font-semibold mb-2 text-gray-700">3. Download the Clean File</h3>
+                <p class="text-lg text-gray-600">Download your file with crystal-clear audio/video ready to use.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+<section class="py-12 text-center bg-gradient-to-r from-blue-300 to-purple-300">
+    <h2 class="text-3xl font-semibold text-white mb-8">Key Features</h2>
+    <div class="flex justify-center gap-8 flex-wrap">
+        <!-- Feature 1 -->
+        <div class="max-w-xs bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-black mb-3">AI-Powered Noise Removal</h3>
+            <p class="text-gray-600">Automatically filters out unwanted background noise from your media.</p>
+        </div>
+        <!-- Feature 2 -->
+        <div class="max-w-xs bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-black mb-3">Fast and Simple</h3>
+            <p class="text-gray-600">Get your audio and video cleaned up in seconds with minimal effort.</p>
+        </div>
+        <!-- Feature 3 -->
+        <div class="max-w-xs bg-white p-6 rounded-lg shadow-md">
+            <h3 class="text-xl font-semibold text-black mb-3">Multiple Format Support</h3>
+            <p class="text-gray-600">Supports all major audio and video file formats for maximum convenience.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Hero Section with Gradient Background and CTA Button -->
+    <section class="bg-gradient-to-r from-blue-300 to-purple-300 text-center py-24 px-4">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl font-bold text-white mb-6">
+                Everything you need to remove background noise
+            </h1>
+            <p class="text-lg text-white mb-8">
+                Clean up your content by removing unwanted background noise from audio and video files with just a few
+                clicks. Fast, simple, and effective.
+            </p>
+            <!-- Start Now Button -->
+            <a 
+                (click)="scrollToTop()"
+                class="inline-block bg-white text-indigo-600 py-3 px-6 rounded-full text-xl font-semibold shadow-md hover:bg-indigo-100 transition-all cursor-pointer">
+                Start Now
+            </a>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="bg-gray-100 py-12">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-semibold mb-6 text-gray-500">What Our Users Say</h2>
+            <div class="flex justify-around items-center flex-wrap">
+                <!-- Testimonial 1 -->
+                <div class="max-w-xs mb-8 text-gray-400">
+                    <p class="text-lg italic">"This tool saved me so much time! My videos sound perfect now, and I can
+                        focus more on creating content." <br> - <strong>Ravi Kumar</strong></p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="max-w-xs mb-8 text-gray-400">
+                    <p class="text-lg italic">"The best background noise removal tool I've used. So easy to upload and
+                        download files!" <br> - <strong>Anjali Sharma</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-black text-white text-center py-6">
+        <p>&copy; 2025 AIVerse. All rights reserved.</p>
+        <div class="flex justify-center space-x-4">
+            <a href="#" class="hover:underline">Privacy Policy</a>
+            <a href="#" class="hover:underline">Terms of Service</a>
+        </div>
+    </footer>
+
+</div>
